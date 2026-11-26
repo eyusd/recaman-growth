@@ -1,0 +1,18 @@
+{
+  "title": "Recamán's sequence at high altitude",
+  "creators": [
+    { "name": "Chardine, Clément" }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "license": "cc-by-4.0",
+  "description": "<p>Recamán's sequence starts at 0, and its nth step subtracts n if the result is non-negative and new, and adds n otherwise. The only published upper bound on its growth appears to be the trivial a(n) ≤ n(n+1)/2. We show that, far above the values it has visited, the sequence follows a rule with no arithmetic in it: a ±1 walk steps up exactly when some earlier stretch of it has a prescribed mean. This reduces the growth question to a game on ±1 walks. A one-page argument then gives limsup a(n)/n² ≤ 3/26, and a small verified search gives 1/14.</p><p>We then study the game itself. If its reach rate is positive, optimal plays converge to stationary walks that obey the rule at every step, with no opponent. Every inequality W ≤ cD, where W counts the up-steps of a ±1 word that satisfy the rule's condition and D counts its down-steps, gives limsup a(n)/n² ≤ (c−1)/(2c+2). We prove it for c = 2. The case c = 1, which we state as a conjecture, would give a(n) = o(n²), and we show that this is equivalent to subtractions having frequency 1/2. We also describe the natural approaches to the conjecture that fail, with the words that refute them. The bounds on the sequence, the reduction to the game and the consequences of W ≤ cD are formalized in Lean 4, in about 1200 lines.</p><p>The archive contains the paper (paper/recaman.pdf, CC BY 4.0), the Lean formalization and the checking programs (Apache-2.0).</p>",
+  "keywords": [
+    "Recamán's sequence",
+    "OEIS A005132",
+    "integer sequences",
+    "combinatorics on words",
+    "Lean 4",
+    "formal verification"
+  ]
+}
