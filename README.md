@@ -1,5 +1,7 @@
 # Recamán's sequence at high altitude
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24554139.svg)](https://doi.org/10.5281/zenodo.24554139)
+
 Clément Chardine. Paper: [`paper/recaman.pdf`](paper/recaman.pdf).
 
 Recamán's sequence ([OEIS A005132](https://oeis.org/A005132)) starts at 0; step `n` subtracts `n` if the result is
@@ -53,6 +55,10 @@ In Lean, `R(13) ≤ 3` is proved by the same search as `R(28) ≤ 4`; the hand p
 
 The kernel performs the search itself (`decide +kernel`); there is no `sorry`, `native_decide` or added axiom. The search for
 `R(28)` needs about 6 GB of memory.
+
+## Citing
+
+Clément Chardine, *Recamán's sequence at high altitude*, preprint (2026), [doi:10.5281/zenodo.24554139](https://doi.org/10.5281/zenodo.24554139).
 
 ## License
 
